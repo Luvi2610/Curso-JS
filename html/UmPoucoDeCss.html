@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Um pouco de CSS</title>
+        <style>
+            h1 {
+                background-color: red;
+            }
+
+            .fundoVermelho {
+                /* RGB 2red 2green 2blue */
+                /* RGB rgb(255,0,0) Vai de 0 a 255 */
+                background-color: #f00;
+            }
+
+            .negrito {
+                font-weight: bold;
+            }
+
+            #textoPrincipal {
+                font-size: 40px;
+                font-weight: bold;
+                color: #fff;
+                background-color: #444;
+                padding: 10px;
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <!-- Não é boa prática usar o mesmo nome para mais de um id -->
+        <span id="TextoPrincipal">Texto 1</span><br>
+        <!-- class é mais para estilo -->
+        <!-- Classe pode ser usada para mais de uma tag -->
+        <!-- Uma tag pode ter mais de uma classe -->
+        <span class="fundoVermelho negrito">Texto 2</span> <br>
+        <span class="fundoVermelho negrito">Texto 3</span>
+    </body>
+</html>
